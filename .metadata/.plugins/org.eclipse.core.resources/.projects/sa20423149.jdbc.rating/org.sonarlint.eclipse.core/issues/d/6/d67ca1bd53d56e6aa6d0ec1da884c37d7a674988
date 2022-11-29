@@ -1,0 +1,10 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¦üõªþÿÿÿÿ8¯ëŽûË0H´RMAJORZ
+CODE_SMELL
+r
+java:S1118":Add a private constructor to hide the implicit public one.(Œê¥Ýüÿÿÿÿ8¯ëŽûË0HµRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¦üõªþÿÿÿÿ8¯ëŽûË0H¶RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§¨õˆùÿÿÿÿH·RMINORZ
+CODE_SMELL

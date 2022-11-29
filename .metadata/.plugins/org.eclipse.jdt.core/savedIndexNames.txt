@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+D:\STS Workspace\Case Studies\JDBC\.metadata\.plugins\org.eclipse.jdt.core
+380904135.index
+2625261582.index
+4146861059.index
+3361198876.index
+2633036144.index
+1865797976.index

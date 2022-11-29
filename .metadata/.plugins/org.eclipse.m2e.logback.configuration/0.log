@@ -1,0 +1,65 @@
+2022-11-28 23:19:53,418 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-28 23:21:33,947 [Worker-8: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\pom.xml
+2022-11-28 23:21:37,197 [Worker-8: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SA20423149_JDBC_Rating:sa20423149.jdbc.rating:0.0.1-SNAPSHOT @ D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\pom.xml.
+2022-11-28 23:21:38,545 [Worker-8: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sa20423149.jdbc.rating/src/main/java
+2022-11-28 23:21:38,549 [Worker-8: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sa20423149.jdbc.rating/src/test/java
+2022-11-28 23:21:39,590 [Worker-8: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2022-11-28 23:21:40,454 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:21:40,454 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:21:40,458 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:21:40,458 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:22:16,049 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:22:16,050 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:22:16,053 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:22:16,054 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:23:24,256 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:23:24,256 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:23:24,258 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:23:24,258 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:24:39,642 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:24:39,643 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:24:39,645 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:24:39,645 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:25:40,022 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:25:40,024 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:25:40,026 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:25:40,027 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:26:52,537 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SA20423149_JDBC_Rating:sa20423149.jdbc.rating:0.0.1-SNAPSHOT @ D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\pom.xml.
+2022-11-28 23:26:52,691 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:26:52,692 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:26:52,694 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:26:52,694 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:26:54,065 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:26:54,065 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:26:54,066 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:26:54,067 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:27:43,379 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:27:43,379 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:27:43,380 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:27:43,380 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:27:51,166 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:27:51,166 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:27:51,167 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:27:51,167 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:28:13,376 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:28:13,376 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:28:13,378 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:28:13,378 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-28 23:29:11,675 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:29:11,676 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-28 23:29:11,677 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 23:29:11,677 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-29 16:53:29,920 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-29 17:31:19,480 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-29 17:31:19,485 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-29 17:31:19,487 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-29 17:31:19,487 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-29 17:31:27,444 [Worker-21: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-29 17:31:27,444 [Worker-21: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-29 17:31:27,446 [Worker-21: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-29 17:31:27,447 [Worker-21: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-29 17:34:52,604 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-29 17:34:52,605 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\main\resources
+2022-11-29 17:34:52,605 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-29 17:34:52,605 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\STS Workspace\Case Studies\JDBC\sa20423149.jdbc.rating\src\test\resources
+2022-11-29 17:52:23,519 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

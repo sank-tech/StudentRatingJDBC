@@ -1,0 +1,119 @@
+***********************************************************************
+************************Schema 'student_rating'************************
+***********************************************************************
+
+CREATE SCHEMA IF NOT EXISTS `student_rating` DEFAULT CHARACTER SET utf8 ;
+USE `student_rating` ;
+
+
+
+***********************************************************************
+*******************Table 'student_rating.STUDENTS'*********************
+***********************************************************************
+
+CREATE TABLE IF NOT EXISTS `student_rating`.`STUDENTS` (
+  `STUDENTNAME` VARCHAR(45) NOT NULL,
+  `SUBJECT` VARCHAR(45) NOT NULL,
+  `ASSIGNMENTCATEGORY` VARCHAR(45) NOT NULL,
+  `DATE` VARCHAR(45) NULL DEFAULT 0,
+  `MARKS` INT NULL,
+  PRIMARY KEY (`STUDENTNAME`, `SUBJECT`, `ASSIGNMENTCATEGORY`))
+ENGINE = InnoDB;
+
+
+
+***********************************************************************
+*********************Table 'student_rating.LAB'************************
+***********************************************************************
+
+CREATE TABLE IF NOT EXISTS `student_rating`.`LAB` (
+  `STUDENTNAME` VARCHAR(45) NOT NULL,
+  `SUBJECT` VARCHAR(45) NOT NULL,
+  `ASSIGNMENTCATEGORY` VARCHAR(45) NOT NULL,
+  `SEQUENCE` INT NULL DEFAULT 1,
+  `MARKS` INT NULL DEFAULT 0,
+  PRIMARY KEY (`STUDENTNAME`, `SUBJECT`),
+  CONSTRAINT `fk_LAB_STUDENTS1`
+    FOREIGN KEY (`STUDENTNAME` , `SUBJECT`)
+    REFERENCES `student_rating`.`STUDENTS` (`STUDENTNAME` , `SUBJECT`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+
+
+***********************************************************************
+**********************Table 'student_rating.PROJECT'*******************
+***********************************************************************
+
+CREATE TABLE IF NOT EXISTS `student_rating`.`PROJECT` (
+  `STUDENTNAME` VARCHAR(45) NOT NULL,
+  `SUBJECT` VARCHAR(45) NOT NULL,
+  `ASSIGNMENTCATEGORY` VARCHAR(45) NOT NULL,
+  `SEQUENCE` INT NULL DEFAULT 1,
+  `MARKS` INT NULL DEFAULT 0,
+  PRIMARY KEY (`STUDENTNAME`, `SUBJECT`),
+  CONSTRAINT `fk_PROJECT_STUDENTS1`
+    FOREIGN KEY (`STUDENTNAME` , `SUBJECT`)
+    REFERENCES `student_rating`.`STUDENTS` (`STUDENTNAME` , `SUBJECT`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+
+***********************************************************************
+********************Table 'student_rating.TEST'************************
+***********************************************************************
+
+CREATE TABLE IF NOT EXISTS `student_rating`.`TEST` (
+  `STUDENTNAME` VARCHAR(45) NOT NULL,
+  `SUBJECT` VARCHAR(45) NOT NULL,
+  `ASSIGNMENTCATEGORY` VARCHAR(45) NOT NULL,
+  `SEQUENCE` INT NULL DEFAULT 1,
+  `MARKS` INT NULL DEFAULT 0,
+  PRIMARY KEY (`STUDENTNAME`, `SUBJECT`),
+  CONSTRAINT `fk_TEST_STUDENTS1`
+    FOREIGN KEY (`STUDENTNAME` , `SUBJECT`)
+    REFERENCES `student_rating`.`STUDENTS` (`STUDENTNAME` , `SUBJECT`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+
+***********************************************************************
+*********************Table 'student_rating.QUIZ'***********************
+***********************************************************************
+
+CREATE TABLE IF NOT EXISTS `student_rating`.`QUIZ` (
+  `STUDENTNAME` VARCHAR(45) NOT NULL,
+  `SUBJECT` VARCHAR(45) NOT NULL,
+  `ASSIGNMENTCATEGORY` VARCHAR(45) NOT NULL,
+  `SEQUENCE` INT NULL DEFAULT 1,
+  `MARKS` INT NULL DEFAULT 0,
+  PRIMARY KEY (`STUDENTNAME`, `SUBJECT`),
+  CONSTRAINT `fk_QUIZ_STUDENTS1`
+    FOREIGN KEY (`STUDENTNAME` , `SUBJECT`)
+    REFERENCES `student_rating`.`STUDENTS` (`STUDENTNAME` , `SUBJECT`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+
+***********************************************************************
+*****************Table 'student_rating.OVERALLRATING'******************
+***********************************************************************
+
+CREATE TABLE IF NOT EXISTS `student_rating`.`OVERALLRATING` (
+  `STUDENTNAME` VARCHAR(45) NOT NULL,
+  `SUBJECT` VARCHAR(45) NOT NULL,
+  `TESTSCORE` DOUBLE NULL DEFAULT 0,
+  `QUIZSCORE` DOUBLE NULL DEFAULT 0,
+  `LABSCORE` DOUBLE NULL DEFAULT 0,
+  `PROJECTSCORE` DOUBLE NULL DEFAULT 0,
+  `OVERALLSCORE` DOUBLE NULL DEFAULT 0,
+  PRIMARY KEY (`STUDENTNAME`, `SUBJECT`))
+ENGINE = InnoDB;
